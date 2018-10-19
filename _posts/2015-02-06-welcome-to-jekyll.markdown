@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Suspendisse pellentesque
+title: Mysql的简介
 date: 2015-02-06T14:37:44.000Z
 categories: update
 ---
 
-<img src="/images/fulls/01.jpg" class="fit image"> Suspendisse pellentesque mollis turpis, vitae ullamcorper arcu sagittis in. Pellentesque viverra, diam vel ultrices lobortis, urna diam efficitur diam, non ultricies enim massa et neque. Mauris lacinia purus nibh, ac consequat mi molestie ac. Suspendisse at sapien ac magna posuere imperdiet eget id nisi.
+<img src="/images/fulls/01.jpg" class="fit image"> MySQL是一个多用户,多线程的关系型数据库管理系统.由于关系数据库将数据保存在不同的表中，这样就增加了速度并提高了灵活性。其体积小、速度快、总体拥有成本低，尤其是开放源码这一特点，一般中小型网站的开发都选择 MySQL 作为网站数据库。工作模式是基于客户机/服务器结构，同时与PHP和Apache可以组成良好的开发环境
 
 Nulla facilisi. Pellentesque id magna eu sapien consectetur pulvinar nec eget massa. Nunc ut volutpat felis. Vestibulum pharetra ligula vel mattis aliquam. Etiam tempor vitae nulla nec euismod. Vivamus eget justo libero. Curabitur dictum, turpis vel porttitor semper, elit turpis vehicula nibh, quis mollis metus tortor at magna.
 
