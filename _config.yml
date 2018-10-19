@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
-description:"对于明天 要充满新的热忱"
+description: 网络 安全 攻击 案例
 
 # Author details for the jekyll-seo-tag gem
 author:
