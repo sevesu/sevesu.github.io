@@ -11,3 +11,17 @@ layout: post
 
 你可以在我的github下载这款工具
 下载到Linux中进行解压
+赋予它可执行权限：
+
+chmod +x HashIdentifier.py
+
+执行它(一旦赋予了可执行权限，你可以通过下面的简单指令直接运行)：
+
+./HashIdentifier.py
+
+支持识别的Hash类型：
+
+Adler32
+
+
+
