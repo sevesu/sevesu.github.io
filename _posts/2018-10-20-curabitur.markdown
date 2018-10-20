@@ -18,6 +18,7 @@ title: Aircrack破解wifi密码
 ```
 root@kali:~$ airmon-ng start wlan0
 ```
+<img src="/images/fulls/0.9.jpg" class="fit image">
 ### 扫描目标wifi
  ```
  root@kali:~$ airodump-ng wlan0mon
