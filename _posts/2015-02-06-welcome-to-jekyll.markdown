@@ -5,7 +5,7 @@ date: 2018-10-20 14:37:44.000Z
 categories: update
 ---
 
-<img src="/images/U = 1421471404,1366921536＆FM = 26＆GP = 0.jpg" class="fit image"> 
+<img src="/images/fulls/sqlphoto" class="fit image"> 
      MySQL是一个多用户,多线程的关系型数据库管理系统.由于关系数据库将数据保存在不同的表中，这样就增加了速度并提高了灵活性。其体积小、速度快、总体拥有成本低，尤其是开放源码这一特点，一般中小型网站的开发都选择 MySQL 作为网站数据库。工作模式是基于客户机/服务器结构，同时与PHP和Apache可以组成良好的开发环境
      
 ### 数据库常用命令
