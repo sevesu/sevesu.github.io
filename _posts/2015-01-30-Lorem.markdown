@@ -1,15 +1,17 @@
 ---
 layout: post
+title：加密算法判断
+date：2018-10-21
 ---
 <img src="/images/fulls/02.jpg" class="fit image">
-##判断加密的算法 -Hash-algorithm-identifier
-加密在网络中普遍被应用，它的作用就是防止有用或私有化信息在网络上被拦截和窃取。
-为了保证我的上网信息的安全，通常会把明文的密码通过某种加密方式形成密文。目前常用的加密有md5，sha1 ，SHA256。
+## 判断加密的算法 -Hash-algorithm-identifier
+   加密在网络中普遍被应用，它的作用就是防止有用或私有化信息在网络上被拦截和窃取。
+   为了保证我的上网信息的安全，通常会把明文的密码通过某种加密方式形成密文。目前常用的加密有md5，sha1 ，SHA256。
 当你得到一连串的密文，仅凭肉眼难以判断它是什么加密方式，所以你可能会用到这个工Hash-algorithm-identifier。
 它是基于Hash identifier工具从而出现的，将Hash identifier的代码尽可能的简化 优化，是我们的破解工作从而更有效率。
 
 
-你可以在我的github下载这款工具
+你可以在我的<a>github<a/>下载这款工具
 下载到Linux中进行解压
 赋予它可执行权限：
 
