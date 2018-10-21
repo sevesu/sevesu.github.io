@@ -2,7 +2,7 @@
 layout: post
 title: Aircrack破解wifi密码
 ---
-<img src="/images/fulls/03.jpg" class="fit image"> 
+<img src="/images/wifi.jpg" class="fit image"> 
   
 ## 实验过程
 
