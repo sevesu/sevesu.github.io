@@ -12,7 +12,8 @@ title: Aircrack破解wifi密码
   * 安装aircrack-ng包
 
 ### 确认网卡
-  进入系统后，首先ifconfig看我们的无线网卡是否有正常工作，如果没有开启  输入airmon-ng wlan0 up加载无线网卡
+  进入系统后，首先ifconfig看我们的无线网卡是否有正常工作。
+  如果没有开启，输入airmon-ng wlan0 up加载无线网卡
   在这里wlan0就是我的网卡，现在已经正常开启。
   <img src="/images/thumbs/wlan0.png" class="fit image">
 ### 开启监听
