@@ -15,16 +15,16 @@ categories: update
      4.登录密码（若有需要）
 ### 数据库常用命令
 #### 1.数据库操作                  
-    连接数据库：       mysql -u root -p        
-    显示所有数据库：   show databases;       
-    创建数据库:        create database name;   
-    进入一个数据库:        use dbname；             
-    刷新数据库:        flush privileges;     
-    直接删除数据库:    drop database name;     
+    连接数据库：         mysql -u root -p        
+    显示所有数据库：     show databases;       
+    创建数据库:         create database name;   
+    进入一个数据库:      use dbname；             
+    刷新数据库:         flush privileges;     
+    直接删除数据库:     drop database name;     
  #### 2.sql表操作                  
-    显示所有的表:              show tables; 
+    显示所有的表:         show tables; 
     查看表的内容：        select * from 表名;
-    删除表：             delete from 表名；
+    删除表：              delete from 表名；
     清空表的内容：        delete from 表名；
  #### 3.增
     insert into 表 (列名,列名...) values (值,值,...)；
