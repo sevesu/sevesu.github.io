@@ -14,14 +14,14 @@ title: Aircrack破解wifi密码
   如果没有开启，输入airmon-ng wlan0 up加载无线网卡
   在这里wlan0就是我的网卡，现在已经正常开启 
  <center>
-  <img src="/images/thumbs/wlan0.png" width=250 height=220 /">
+  <img src="/images/thumbs/wlan0.png" width=250 height=220/">
  </center>
                                                                
 ### 开启监听
 ```
 root@kali:~$ airmon-ng start wlan0
 ```
-<img src="/images/0.9.jpg" width=250 height=220 /">
+<img src="/images/0.9.jpg" width=250 height=220 />
 
 ### 扫描目标wifi
  ```
