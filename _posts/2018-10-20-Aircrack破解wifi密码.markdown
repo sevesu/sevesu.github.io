@@ -4,6 +4,10 @@ title: Aircrack破解wifi密码
 ---
 <img src="/images/wifi.jpg" class="fit image"> 
   
+  
+  
+  
+  
 ## 实验过程
 ### 破解准备 
   * kali系统笔记本
