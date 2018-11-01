@@ -6,6 +6,7 @@ google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: 网络 安全 攻击 案例
+excerpt_separator:  '<!-- more -->'
 
 # Author details for the jekyll-seo-tag gem
 author:
